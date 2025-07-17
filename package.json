@@ -1,0 +1,16 @@
+{
+  "name": "dd-dyn-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "DD_TRACING=true DD_TRACE_DEBUG=true DD_DYNAMIC_INSTRUMENTATION_ENABLED=true node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dd-trace": "^5.59.0"
+  }
+}
